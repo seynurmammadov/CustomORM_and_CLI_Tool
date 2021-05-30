@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+        http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="cli_tool">
+        <description>Task CLI Tool</description>
+        <class>az.models.movie.Movie</class>
+        <class>az.models.movie.Genre</class>
+        <class>az.models.movie.Language</class>
+        <class>az.models.person.Person</class>
+        <class>az.models.person.PersonDetail</class>
+        <class>az.models.person.Profession</class>
+        <class>az.models.person.Gender</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost/cli_tool" />
+            <property name="javax.persistence.jdbc.user" value="postgres" />
+            <property name="javax.persistence.jdbc.password" value="seynur2462736" />
+            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
+   <!--         <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.format_sql" value="true" />-->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgresPlusDialect"/>
+        </properties>
+    </persistence-unit>
+</persistence>

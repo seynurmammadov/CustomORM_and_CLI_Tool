@@ -1,0 +1,10 @@
+Annotations\MyEntity.class
+Core\Manager.class
+Exceptions\ClassNotEntityException.class
+Annotations\MyColumn.class
+Annotations\MyID.class
+Exceptions\ClassHasNoIdException.class
+Exceptions\ClassHasNoColumnsException.class
+Exceptions\PrimaryKeyExistException.class
+Core\ORM.class
+Exceptions\ORMExceptions.class
