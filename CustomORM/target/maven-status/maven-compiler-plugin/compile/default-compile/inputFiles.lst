@@ -1,10 +1,10 @@
-C:\Users\agase\OneDrive\Рабочий стол\CustomORM\src\main\java\Exceptions\ORMExceptions.java
-C:\Users\agase\OneDrive\Рабочий стол\CustomORM\src\main\java\Annotations\MyColumn.java
-C:\Users\agase\OneDrive\Рабочий стол\CustomORM\src\main\java\Annotations\MyID.java
-C:\Users\agase\OneDrive\Рабочий стол\CustomORM\src\main\java\Core\ORM.java
-C:\Users\agase\OneDrive\Рабочий стол\CustomORM\src\main\java\Exceptions\ClassHasNoIdException.java
-C:\Users\agase\OneDrive\Рабочий стол\CustomORM\src\main\java\Annotations\MyEntity.java
-C:\Users\agase\OneDrive\Рабочий стол\CustomORM\src\main\java\Core\Manager.java
-C:\Users\agase\OneDrive\Рабочий стол\CustomORM\src\main\java\Exceptions\PrimaryKeyExistException.java
-C:\Users\agase\OneDrive\Рабочий стол\CustomORM\src\main\java\Exceptions\ClassNotEntityException.java
-C:\Users\agase\OneDrive\Рабочий стол\CustomORM\src\main\java\Exceptions\ClassHasNoColumnsException.java
+C:\Users\WINDOWS10\Desktop\Seynur\CustomORM_and_CLI_Tool\CustomORM\src\main\java\Core\ORM.java
+C:\Users\WINDOWS10\Desktop\Seynur\CustomORM_and_CLI_Tool\CustomORM\src\main\java\Exceptions\ClassHasNoColumnsException.java
+C:\Users\WINDOWS10\Desktop\Seynur\CustomORM_and_CLI_Tool\CustomORM\src\main\java\Exceptions\ClassHasNoIdException.java
+C:\Users\WINDOWS10\Desktop\Seynur\CustomORM_and_CLI_Tool\CustomORM\src\main\java\Annotations\MyColumn.java
+C:\Users\WINDOWS10\Desktop\Seynur\CustomORM_and_CLI_Tool\CustomORM\src\main\java\Exceptions\ORMExceptions.java
+C:\Users\WINDOWS10\Desktop\Seynur\CustomORM_and_CLI_Tool\CustomORM\src\main\java\Annotations\MyEntity.java
+C:\Users\WINDOWS10\Desktop\Seynur\CustomORM_and_CLI_Tool\CustomORM\src\main\java\Exceptions\ClassNotEntityException.java
+C:\Users\WINDOWS10\Desktop\Seynur\CustomORM_and_CLI_Tool\CustomORM\src\main\java\Annotations\MyID.java
+C:\Users\WINDOWS10\Desktop\Seynur\CustomORM_and_CLI_Tool\CustomORM\src\main\java\Core\Manager.java
+C:\Users\WINDOWS10\Desktop\Seynur\CustomORM_and_CLI_Tool\CustomORM\src\main\java\Exceptions\PrimaryKeyExistException.java

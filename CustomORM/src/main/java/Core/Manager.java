@@ -30,6 +30,7 @@ public class Manager {
             sql.append(", ").append(column.getName());
         }
         sql.append(")");
+
         Object o_id = null;
         try {
             o_id = id.get(object);
@@ -42,22 +43,30 @@ public class Manager {
             sql.append((" VALUES(")).append((int) o_id);
 
         }
+
         for (Field column : columns) {
             column.setAccessible(true);
             Object f = null;
             try {
                 f = column.get(object);
+                if (f==null){
+                    sql.append(", ").append("null");
+                }
             } catch (IllegalAccessException e) {
                 e.printStackTrace();
             }
             if (f instanceof String) {
                 sql.append(", " + "'").append((String) f).append("'");
 
-            } else if (f instanceof Integer) {
+            }
+            else if (f instanceof Integer) {
                 sql.append(", ").append((int) f);
             }
+
         }
         sql.append(")");
+
+        System.out.println(sql);
         try {
             Statement st = connection.createStatement();
             st.executeUpdate(sql.toString());
